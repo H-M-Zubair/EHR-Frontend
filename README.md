@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Doctor EHR Management Frontend
+
+This repository contains the **Doctor EHR (Electronic Health Record) Management Frontend**, built as part of the overall healthcare application system. It allows doctors to manage appointments, view patient records, edit assessment forms, and handle various patient interactions.
+
+## Features
+
+### Appointment Management
+- **View Appointment Requests**: Doctors can see all the patient requests for appointments.
+- **Reschedule Appointments**: Doctors have the ability to reschedule meetings with patients by selecting a new time and date.
+  
+### Patient Record Management
+- **View Filled Assessment Forms**: Doctors can access the assessment forms filled by patients during their appointment requests.
+- **Edit Patient Forms**: Doctors can update and modify patient assessment forms as needed for accuracy or additional information.
+
+### Technologies Used
+- **React Hook Form (RHF)**: Used for building and managing form inputs in an efficient and flexible way.
+- **Zod**: Utilized for schema validation to ensure data integrity and validation within forms.
+- **React Query (useQuery)**: Employed to handle asynchronous data fetching, caching, and synchronization of patient data and appointment information.
+
+### Responsive and User-Friendly Interface
+- **Responsive UI**: The frontend is designed to provide a smooth and responsive experience across various devices.
+- **Notifications and Feedback**: Integrated with **Toaster** to provide quick feedback and alerts for actions such as rescheduling appointments and updating forms.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+- Ensure you have Node.js and npm installed on your machine.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Installation Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/doctor-ehr-frontend.git
+   cd doctor-ehr-frontend
